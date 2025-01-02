@@ -1,0 +1,1 @@
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"Home","text":""},{"location":"#welcome-to-idpea","title":"Welcome to IDPea","text":"<p>A community initiative for authentication and authorization documentation, links and resources</p>"}]}
