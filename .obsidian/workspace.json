@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9eba3bc79b7e47ab",
+        "id": "5922467990ef60af",
         "type": "tabs",
         "children": [
           {
-            "id": "5cd51055649ef933",
+            "id": "d29e12d665297f91",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": ".obsidian/app.json",
-                "bFile": ".obsidian/app.json",
+                "aFile": "docs/index.md",
+                "bFile": "docs/index.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: app.json"
+              "title": "Diff: index"
             }
           }
         ]
@@ -169,6 +169,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5cd51055649ef933",
-  "lastOpenFiles": []
+  "active": "d29e12d665297f91",
+  "lastOpenFiles": [
+    "docs/index.md",
+    "docs/images/idpea.jpg",
+    "docs/images",
+    "docs/New folder",
+    "docs/CNAME",
+    "docs/New Text Document.txt"
+  ]
 }
