@@ -1,4 +1,11 @@
 site_name: IDPea Community
 site_url: https://idpea.org
+repo_url: https://github.com/idpea/idpea
+plugins:
+    - search
 theme:
   name: material
+  logo: docs/images/idpea.jpg
+  features:
+    - navigation.instant
+    - navigation.tabs

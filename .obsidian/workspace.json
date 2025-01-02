@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "5922467990ef60af",
+        "id": "edfc2dfc12f75d20",
         "type": "tabs",
         "children": [
           {
-            "id": "d29e12d665297f91",
+            "id": "7f6218519f6443af",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "vscode-editor",
               "state": {
-                "aFile": "docs/index.md",
-                "bFile": "docs/index.md",
-                "aRef": ""
+                "file": "mkdocs.yml"
               },
-              "icon": "diff",
-              "title": "Diff: index"
+              "icon": "lucide-file",
+              "title": "mkdocs"
             }
           }
         ]
@@ -166,11 +164,15 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "vscode-editor:Create Code File": false
     }
   },
-  "active": "d29e12d665297f91",
+  "active": "7f6218519f6443af",
   "lastOpenFiles": [
+    "settings.md",
+    "docs/images/Untitled.md",
+    "mkdocs2.yml",
     "docs/index.md",
     "docs/images/idpea.jpg",
     "docs/images",

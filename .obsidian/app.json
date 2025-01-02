@@ -1,1 +1,7 @@
-{}
+{
+  "useTab": false,
+  "strictLineBreaks": true,
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": true,
+  "promptDelete": false
+}
