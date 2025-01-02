@@ -11,12 +11,14 @@
             "id": "7f6218519f6443af",
             "type": "leaf",
             "state": {
-              "type": "vscode-editor",
+              "type": "markdown",
               "state": {
-                "file": "mkdocs.yml"
+                "file": "docs/index.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "mkdocs"
+              "title": "index"
             }
           }
         ]
@@ -170,6 +172,7 @@
   },
   "active": "7f6218519f6443af",
   "lastOpenFiles": [
+    "mkdocs.yml",
     "settings.md",
     "docs/images/Untitled.md",
     "mkdocs2.yml",
