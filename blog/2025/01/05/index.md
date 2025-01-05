@@ -17,7 +17,7 @@ And now, I finally got to try it out. And it works amazingly well out of the box
 
 ### On Bitwarden Server
 
-The Bitwarden server has yet to receive the feature flags, they are planned for the January release.
+The Bitwarden server has yet to receive the feature flags, they are planned for the January release. This should be around the 13th-16th of January.
 
 ### On Vaultwarden Server
 
@@ -75,6 +75,14 @@ I'm an avid user of WSL2 and Windows Terminal, so naturally I wanted to try out 
 The easiest way to do it would be just using `ssh-add.exe -l` and `ssh.exe` to manage keys and connect to servers, but those directly use the Windows SSH client and not the OpenSSH client in the WSL2 environment.
 
 I did find some ways to forward the agent, but they are not very elegant. I'll keep searching for a better solution and post that in a part 2.
+
+## Usage with [Insert client here]
+
+The team at 1Password have a similar SSH Agent feature, and the Bitwarden/Vaultwarden SSH Agent should work with pretty much the same clients and/or instructions as the 1Password agent.
+
+You can find more information here: [1Password SSH Agent](https://developer.1password.com/docs/ssh/agent/compatibility/)
+
+Once the official announcement and documentation is out, I'll update this post with more information.
 
 ## Conclusion
 
