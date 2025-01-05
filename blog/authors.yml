@@ -1,0 +1,8 @@
+scheibling:
+  name: Lars Scheibling
+  title: SRE, Software Engineer, Integration Specialist
+  url: https://github.com/scheibling
+  image_url: https://github.com/scheibling.png
+  page: true
+  socials:
+    github: scheibling
