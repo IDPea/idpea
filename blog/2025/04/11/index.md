@@ -75,9 +75,11 @@ Notes: Notes about the method
 | SSH Certificates | Hashicorp Boundary | Yes | Yes | Yes | Yes | Yes | - |
 | PAM | PAM_OAUTH2_DEVICE | Yes | No | No | Yes | Yes | - |
 | X509 | PKIXSSH | No | No | Yes (custom SSH client) | Manual | Manual | Requires custom build of SSH, not compatible with bundled servers (VSCode, etc.) |
-| Zero Trust | Netbird | Yes | Yes | Yes | Yes | Yes* (network-level) | - |
-| Zero Trust | OpenZiti | Yes | Yes | Yes | Yes | Yes* (network-level) | - |
-| Zero Trust | Headscale, Tailscale, Ionscale | Yes | Yes | Yes | Yes | Yes* (network-level and/or app-level) | - |
+| Zero Trust | Netbird | Yes | Yes | Yes | Yes | Yes* (network-level only) | - |
+| Zero Trust | OpenZiti | Yes | Yes | Yes | Yes | Yes | Custom SSH client providing deeper level of integration |
+| Zero Trust | Headscale | Yes | Yes | Yes | Yes | Yes* (network-level only) | - |
+| Zero Trust | Tailscale | Yes | Yes | Yes | Yes | Yes* | Tailscale SSH can provide additional application-level authorization |
+| Zero Trust | Ionscale | Yes | Yes | Yes | Yes | Yes*  | Tailscale SSH implementation can provide additional application-level authorization |
 | Zero Trust | Pomerium | Yes | Yes | Yes | Yes | Yes* (network-level and/or app-level) | - |
 | Jumphosts | Guacamole | Yes | Yes | No | Yes | Yes | Web-based, so won't work with other SSH clients |
 | Jumphosts | Bastillion | No | Yes | No | Yes | Yes | Web-based access, but can also be used to manage SSH keys for access with other clients |
