@@ -22,3 +22,8 @@ openssh:
   label: OpenSSH
   permalink: /openssh
   description: OpenSSH is a suite of secure networking tools.
+
+cybersecurity:
+  label: Cybersecurity
+  permalink: /cybersecurity
+  description: Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks.
